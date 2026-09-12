@@ -180,7 +180,11 @@ export function SecuritySection() {
       <SectionHeading eyebrow="Trust" title={<>Designed for your codebase.</>} />
       <div className="mt-16 grid gap-px border border-border bg-border md:grid-cols-2">
         {TRUST.map((t, i) => (
-          <Reveal key={t} delay={i * 60} className="bg-background">
+          <Reveal
+            key={t}
+            delay={i * 60}
+            className={`bg-background ${i === TRUST.length - 1 ? "md:col-span-2" : ""}`}
+          >
             <div className="card-tech flex h-full items-start gap-5 border-0 p-8">
               <span className="font-mono text-[0.7rem] text-muted-foreground">
                 {String(i + 1).padStart(2, "0")}
