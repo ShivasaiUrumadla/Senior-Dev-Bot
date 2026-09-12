@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { useReveal } from "@/hooks/use-reveal";
 import { cn } from "@/lib/utils";
 
-export const INSTALL_URL = "https://github.com/apps/pr-review-pro-max";
+export const INSTALL_URL = "https://github.com/apps/sr-dev-bot";
 
 export function GithubMark({ className }: { className?: string }) {
   return (

@@ -254,7 +254,7 @@ const FOOTER_LINKS = [
   { label: "Product", href: "#product" },
   { label: "How It Works", href: "#how-it-works" },
   { label: "RAG", href: "#rag" },
-  { label: "GitHub", href: "https://github.com/apps/pr-review-pro-max" },
+  { label: "GitHub", href: "https://github.com/apps/sr-dev-bot" },
   { label: "Documentation", href: "#how-it-works" },
   { label: "Privacy", href: "#security" },
   { label: "Terms", href: "#security" },
