@@ -98,7 +98,11 @@ export function HowItWorks() {
                 d: "Findings are posted as review comments on the exact lines they concern.",
               },
             ].map((s, i) => (
-              <Reveal key={s.n} delay={i * 70} className="bg-background">
+              <Reveal
+                key={s.n}
+                delay={i * 70}
+                className={`bg-background ${i === 4 ? "sm:col-span-2" : ""}`}
+              >
                 <div className="card-tech h-full border-0 p-7">
                   <span className="font-mono text-[0.7rem] text-muted-foreground">
                     {s.n} — {s.t}
